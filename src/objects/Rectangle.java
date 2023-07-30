@@ -24,15 +24,15 @@ public class Rectangle {
         }
     }
 
-    public double getHeight() {
+    public double getLength() {
         return length;
     }
 
-    public void setHeight(double length) {
+    public void setLength(double length) {
         if (length > 0) {
             this.length = length;
         } else {
-            System.out.println("Height must be greater than 0.");
+            System.out.println("Length must be greater than 0.");
         }
     }
 
