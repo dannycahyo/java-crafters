@@ -14,11 +14,11 @@ public class Rectangle {
         setLength(length);
     }
 
-    public double calculatePerimeter(double width, double length) {
+    public double calculatePerimeter() {
         return (width + length) * 2;
     }
 
-    public double calculateArea(double width, double length) {
+    public double calculateArea() {
         return width * length;
     }
 
