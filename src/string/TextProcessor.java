@@ -11,6 +11,7 @@ public class TextProcessor {
         countWords("Monkey D Luffy");
         isAnagram("Monkey D Luffy", "Luffy D Monkey");
         addSpaces("MonkeyDLuffy");
+        printMultiLineString();
         reverseString("Monkey D Luffy");
     }
 
@@ -59,5 +60,14 @@ public class TextProcessor {
         }
 
         System.out.println(modifiedText);
+    }
+
+    public static void printMultiLineString() {
+        var text = """
+                Line 1
+                Line 2
+                Line 3
+                """;
+        System.out.println(text);
     }
 }
