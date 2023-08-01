@@ -16,6 +16,9 @@ public class Zoo {
 
         jeki = new Cat();
         // Type Casting
-        ((Cat) jeki).scratch();
+        // ((Cat) jeki).scratch();
+        if (jeki instanceof Cat jekiCat) {
+            jekiCat.scratch();
+        }
     }
 }
