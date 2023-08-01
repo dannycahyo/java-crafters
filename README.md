@@ -20,6 +20,11 @@ To get started with JavaCrafters, make sure you have Java Development Kit (JDK) 
 
 Contributions to JavaTrailblazer are welcome! If you have any Java programs, code examples, or projects that you would like to share, feel free to create a pull request.
 
+## Acknowledgement
+I would like to express my gratitude to the Java Fundamental Courses' Frontend Master for their valuable guidance and support during my learning journey. Their comprehensive and well-structured course has been instrumental in helping me build Java programming skills and inspire this JavaCrafters project.
+
+You can find the Java Fundamental Courses' Frontend Master [Here](https://frontendmasters.com/courses/java/).
+
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out to me:
