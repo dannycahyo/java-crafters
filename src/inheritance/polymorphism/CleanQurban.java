@@ -5,16 +5,16 @@ import inheritance.Animal;
 public class CleanQurban {
     public static void main(String[] args) {
         Goat goat = new Goat();
-        System.out.println(goat.isQurbanValid());
+        System.out.println(isValidQurbanAnimal(goat));
 
         Cow cow = new Cow();
-        System.out.println(cow.isQurbanValid());
+        System.out.println(isValidQurbanAnimal(cow));
 
         Sheep sheep = new Sheep();
-        System.out.println(sheep.isQurbanValid());
+        System.out.println(isValidQurbanAnimal(sheep));
 
         Camel camel = new Camel();
-        System.out.println(camel.isQurbanValid());
+        System.out.println(isValidQurbanAnimal(camel));
     }
 
     public static boolean isValidQurbanAnimal(Animal animal) {
