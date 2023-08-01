@@ -1,6 +1,6 @@
 package abstraction;
 
-public abstract class Shape {
+public sealed abstract class Shape permits Rectangle {
     public void print() {
         System.out.println("This is a shape");
     }
